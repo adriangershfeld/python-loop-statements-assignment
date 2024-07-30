@@ -15,4 +15,4 @@ for day in days:
 
     for time in times:
         random_mood = random.choice(moods)
-        print(f"  {time}: {random_mood}")
+        print(f"In the {time} you were feeling {random_mood}.")
